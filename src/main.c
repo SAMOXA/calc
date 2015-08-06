@@ -37,7 +37,7 @@ int main() {
 			case(2): sub_func(); break;
 			case(3): multiplication(); break;
 			case(4): Div(); break;
-			case(5): printf("Not found\n"); break;
+			case(5): mod(); break;
 			case(6): modul2(); break;
 			case(7): sinus(); break;
 			case(8): my_cos(); break;

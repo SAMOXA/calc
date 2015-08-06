@@ -93,7 +93,7 @@ PROGRAMS = $(bin_PROGRAMS)
 am_calc_OBJECTS = main.$(OBJEXT) multiplication.$(OBJEXT) \
 	modul2.$(OBJEXT) tan.$(OBJEXT) div.$(OBJEXT) sin.$(OBJEXT) \
 	arctg.$(OBJEXT) add.$(OBJEXT) sub_func.$(OBJEXT) \
-	factorial.$(OBJEXT)
+	factorial.$(OBJEXT) mod.$(OBJEXT)
 calc_OBJECTS = $(am_calc_OBJECTS)
 calc_LDADD = $(LDADD)
 calc_DEPENDENCIES =
@@ -237,7 +237,7 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-calc_SOURCES = main.c multiplication.c multiplication.h cos.h modul2.c modul2.h tan.c tan.h div.c div.h sin.c sin.h arctg.c arctg.h add.c add.h sub_func.c sub_func.h factorial.c factorial.h
+calc_SOURCES = main.c multiplication.c multiplication.h cos.h modul2.c modul2.h tan.c tan.h div.c div.h sin.c sin.h arctg.c arctg.h add.c add.h sub_func.c sub_func.h factorial.c factorial.h mod.c mod.h
 LDADD = -lm
 all: all-am
 
@@ -331,6 +331,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/div.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/factorial.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/main.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/mod.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/modul2.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/multiplication.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/sin.Po@am__quote@
