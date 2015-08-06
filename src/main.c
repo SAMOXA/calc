@@ -36,6 +36,7 @@ int main() {
 			case(7): printf("Not found\n"); break;
 			case(8): my_cos(); break;
 			case(9): tang(); break;
+			case(0): arctg(); break;
 			case(10): printf("Not found\n"); break;
 			case(11): exitFlag = 1; break;
 			default: printf("Wrong index\n");
