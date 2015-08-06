@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([calc], [0.3], [amdsamoxa@gmail.com])
+AC_INIT([calc], [0.9], [amdsamoxa@gmail.com])
 AM_INIT_AUTOMAKE([])
 AM_MAINTAINER_MODE([disable])
 AC_CONFIG_SRCDIR([src/main.c])
