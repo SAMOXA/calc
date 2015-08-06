@@ -8,6 +8,7 @@
 #define SIZE 10
 
 #include <stdio.h>
+#include <string.h>
 
 int multiplication(void);
 
