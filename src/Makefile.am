@@ -1,3 +1,3 @@
-bin_PROGRAMS=calc
-calc_SOURCES=main.c multiplication.c multiplication.h cos.h modul2.c modul2.h tan.c tan.h
+bin_PROGRAMS=calc    
+calc_SOURCES=main.c multiplication.c multiplication.h cos.h modul2.c modul2.h tan.c tan.h div.c div.h
 AM_CFLAGS = -lm
