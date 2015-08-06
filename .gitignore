@@ -1,6 +1,6 @@
 # http://www.gnu.org/software/automake
 
-Makefile.in
+#Makefile.in
 
 # http://www.gnu.org/software/autoconf
 
@@ -13,5 +13,5 @@ Makefile.in
 #/missing
 #/stamp-h1
 *.o
-config.h*
+config.h
 *.swp
