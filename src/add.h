@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#ifndef BUF_SIZEs
+#ifndef BUF_SIZE
 #define BUF_SIZE 10
 #endif
 
