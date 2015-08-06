@@ -1,9 +1,13 @@
 #include <stdio.h>
+<<<<<<< HEAD
 #include "multiplication.h"
 #include "cos.h"
 #include "modul2.h"
 #include "tan.h"
 #include "div.h"
+=======
+#include "sub_func.h"
+>>>>>>> sub_func
 
 int main() {
 	int action = 0;
