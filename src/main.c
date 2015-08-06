@@ -18,9 +18,9 @@ int main() {
 		printf("7) Sin\n");
 		printf("8) Cos\n");
 		printf("9) Tan\n");
-		printf("0) ArcTan\n");
-		printf("10) Factorial\n");
-		printf("11) Exit\n" );
+		printf("10) ArcTan\n");
+		printf("11) Factorial\n");
+		printf("12) Exit\n" );
 		printf("Action: ");
 		scanf("%d", &action);
 		getchar();
@@ -37,7 +37,8 @@ int main() {
 			case(8): my_cos(); break;
 			case(9): tang(); break;
 			case(10): printf("Not found\n"); break;
-			case(11): exitFlag = 1; break;
+			case(11): printf("Not found\n"); break;
+			case(12): exitFlag = 1; break;
 			default: printf("Wrong index\n");
 		}
 	}
