@@ -20,14 +20,14 @@ int multiplication(void)
 	printf ("input first var: ");
 	if (fgets (buf, SIZE, stdin)==0)
 		return 1;
-	a = atoi(buf);	
+	a = atoi(buf);
 
 	/* get b */
 	bzero (buf, SIZE);
 	printf ("input second var: ");
 	if (fgets (buf, SIZE, stdin)==0)
 		return 1;
-	b = atoi(buf);	
+	b = atoi(buf);
 
 	/* multiplication */
 	res = a * b;
