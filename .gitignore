@@ -13,5 +13,5 @@
 #/missing
 #/stamp-h1
 *.o
-config.h*
+config.h
 *.swp
