@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include "multiplication.h"
 #include "cos.h"
 #include "modul2.h"
@@ -6,6 +7,9 @@
 #include "div.h"
 #include "add.h"
 #include "sin.h"
+
+#include "sub_func.h"
+
 
 int main() {
 	int action = 0;
