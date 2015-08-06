@@ -34,7 +34,7 @@ int main() {
 		sync();
 		switch(action) {
 			case(1): add(); break;
-			case(2): printf("Not found\n"); break;
+			case(2): sub_func(); break;
 			case(3): multiplication(); break;
 			case(4): Div(); break;
 			case(5): printf("Not found\n"); break;
@@ -42,8 +42,7 @@ int main() {
 			case(7): sinus(); break;
 			case(8): my_cos(); break;
 			case(9): tang(); break;
-			case(0): arctg(); break;
-			case(10): printf("Not found\n"); break;
+			case(10): arctg(); break;
 			case(11): printf("Not found\n"); break;
 			case(12): exitFlag = 1; break;
 			default: printf("Wrong index\n");
