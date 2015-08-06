@@ -91,7 +91,7 @@ CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am_calc_OBJECTS = main.$(OBJEXT) multiplication.$(OBJEXT) \
-	modul2.$(OBJEXT) tan.$(OBJEXT)
+	modul2.$(OBJEXT) tan.$(OBJEXT) div.$(OBJEXT)
 calc_OBJECTS = $(am_calc_OBJECTS)
 calc_LDADD = $(LDADD)
 AM_V_P = $(am__v_P_@AM_V@)
@@ -233,7 +233,8 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-calc_SOURCES = main.c multiplication.c multiplication.h cos.h modul2.c modul2.h tan.c tan.h
+calc_SOURCES = main.c multiplication.c multiplication.h cos.h modul2.c modul2.h tan.c tan.h div.c div.h
+AM_LDFLAGS = -lm
 AM_CFLAGS = -lm
 all: all-am
 
@@ -322,6 +323,7 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/div.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/main.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/modul2.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/multiplication.Po@am__quote@
