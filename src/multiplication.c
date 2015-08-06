@@ -18,14 +18,16 @@ int multiplication(void)
 
 	/* get a */
 	printf ("input first var: ");
-	fgets (buf, SIZE, stdin);
-	a = atoi(buf);	
+	if (fgets (buf, SIZE, stdin)==0)
+		return 1;
+	a = atoi(buf);
 
 	/* get b */
 	bzero (buf, SIZE);
 	printf ("input second var: ");
-	fgets (buf, SIZE, stdin);
-	b = atoi(buf);	
+	if (fgets (buf, SIZE, stdin)==0)
+		return 1;
+	b = atoi(buf);
 
 	/* multiplication */
 	res = a * b;
