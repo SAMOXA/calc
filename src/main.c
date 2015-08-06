@@ -31,7 +31,7 @@ int main() {
 			case(2): printf("Not found\n"); break;
 			case(3): multiplication(); break;
 			case(4): Div(); break;
-			case(5): printf("Not found\n"); break;
+			case(5): mod(); break;
 			case(6): modul2(); break;
 			case(7): printf("Not found\n"); break;
 			case(8): my_cos(); break;
