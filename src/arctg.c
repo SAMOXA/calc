@@ -1,3 +1,5 @@
+#include "arctg.h"
+
 void arctg(void)
 {
     float x, result;

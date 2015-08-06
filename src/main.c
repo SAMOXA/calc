@@ -7,7 +7,7 @@
 #include "div.h"
 #include "add.h"
 #include "sin.h"
-
+#include "arctg.h"
 #include "sub_func.h"
 
 
