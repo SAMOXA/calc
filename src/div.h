@@ -2,7 +2,7 @@
 #define DIV_H
 
 #include <stdio.h>
-
+    
 void Div(void);
 
 #endif

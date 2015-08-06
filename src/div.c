@@ -7,7 +7,7 @@ void Div(void)
     int res=0;
 
     printf("Input two values for division:\n");
-
+    
     res=scanf("%lf %lf%c",&valA,&valB,&end_symbol);
     sync();
 
