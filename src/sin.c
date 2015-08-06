@@ -3,8 +3,8 @@
 
 #define PI 3.14159265
 
-void sin() {
-	double a;	
+void sinus() {
+	double a;
 	printf("Func sin\nInput: \n");
 	scanf("%lf", &a);
 	printf("Out: %lf\n", sin(a * (PI/180)));
