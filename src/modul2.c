@@ -6,10 +6,12 @@ void modul2(void) {
 
   printf("Addition modulo 2\n");
   printf("Print first argument: ");
-  fgets(buf, MODUL2_BUF_SIZE, stdin);
+  if (fgets(buf, MODUL2_BUF_SIZE, stdin) == NULL)
+    return;
   sscanf(buf, "%u", &val1);
   printf("Print second argument: ");
-  fgets(buf, MODUL2_BUF_SIZE, stdin);
+  if (fgets(buf, MODUL2_BUF_SIZE, stdin) == NULL)
+    return;
   sscanf(buf, "%u", &val2);
   printf("Result: %u\n", val1 ^ val2);
 }
