@@ -2,7 +2,7 @@
 #include <math.h>
 
 void sin() {
-	double a;
+	double a;	
 	printf("Func sin\nInput: \n");
 	scanf("%lf", &a);
 	printf("Out: %lf\n", sin(a));
