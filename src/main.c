@@ -4,6 +4,7 @@
 #include "modul2.h"
 #include "tan.h"
 #include "div.h"
+#include "add.h"
 
 int main() {
 	int action = 0;
@@ -27,7 +28,7 @@ int main() {
 		fflush(stdin);
 		sync();
 		switch(action) {
-			case(1): printf("Not found\n"); break;
+			case(1): add(); break;
 			case(2): printf("Not found\n"); break;
 			case(3): multiplication(); break;
 			case(4): Div(); break;
