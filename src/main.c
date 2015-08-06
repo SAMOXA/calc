@@ -5,6 +5,7 @@
 #include "tan.h"
 #include "div.h"
 #include "add.h"
+#include "sin.h"
 
 int main() {
 	int action = 0;
@@ -34,7 +35,7 @@ int main() {
 			case(4): Div(); break;
 			case(5): printf("Not found\n"); break;
 			case(6): modul2(); break;
-			case(7): printf("Not found\n"); break;
+			case(7): sinus(); break;
 			case(8): my_cos(); break;
 			case(9): tang(); break;
 			case(0): arctg(); break;
