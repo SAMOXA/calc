@@ -9,4 +9,3 @@ void sinus() {
 	scanf("%lf", &a);
 	printf("Out: %lf\n", sin(a * (PI/180)));
 }
-

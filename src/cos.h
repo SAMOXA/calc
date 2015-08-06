@@ -19,7 +19,8 @@ void my_cos(void)
 	char str[BUF_SIZE] = {0};
 
 	printf("enter argument of the function cos: ");
-	fgets(str, BUF_SIZE, stdin);
+	if (fgets(str, BUF_SIZE, stdin) == NULL)
+		return;
 	for (i = 0; i < strlen(str) - 1; i++) {
 		if (str[i] < ASCII_CODE_0 || str[i] > ASCII_CODE_9) {
 			if (str[i] != ASCII_CODE_POINT) {

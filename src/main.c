@@ -1,9 +1,15 @@
 #include <stdio.h>
+
 #include "multiplication.h"
 #include "cos.h"
 #include "modul2.h"
 #include "tan.h"
 #include "div.h"
+#include "add.h"
+#include "sin.h"
+#include "arctg.h"
+#include "sub_func.h"
+
 
 int main() {
 	int action = 0;
@@ -27,15 +33,16 @@ int main() {
 		fflush(stdin);
 		sync();
 		switch(action) {
-			case(1): printf("Not found\n"); break;
+			case(1): add(); break;
 			case(2): printf("Not found\n"); break;
 			case(3): multiplication(); break;
 			case(4): Div(); break;
 			case(5): mod(); break;
 			case(6): modul2(); break;
-			case(7): printf("Not found\n"); break;
+			case(7): sinus(); break;
 			case(8): my_cos(); break;
 			case(9): tang(); break;
+			case(0): arctg(); break;
 			case(10): printf("Not found\n"); break;
 			case(11): printf("Not found\n"); break;
 			case(12): exitFlag = 1; break;
