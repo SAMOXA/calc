@@ -9,7 +9,7 @@
 #include "sin.h"
 #include "arctg.h"
 #include "sub_func.h"
-
+#include "factorial.h"
 
 int main() {
 	int action = 0;
@@ -43,7 +43,7 @@ int main() {
 			case(8): my_cos(); break;
 			case(9): tang(); break;
 			case(10): arctg(); break;
-			case(11): printf("Not found\n"); break;
+			case(11): factorial(); break;
 			case(12): exitFlag = 1; break;
 			default: printf("Wrong index\n");
 		}
