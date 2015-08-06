@@ -3,6 +3,7 @@
 #include "cos.h"
 #include "modul2.h"
 #include "tan.h"
+#include "div.h"
 
 int main() {
 	int action = 0;
@@ -22,16 +23,18 @@ int main() {
 		printf("11) Exit\n" );
 		printf("Action: ");
 		scanf("%d", &action);
+		getchar();
 		fflush(stdin);
+		sync();
 		switch(action) {
 			case(1): printf("Not found\n"); break;
 			case(2): printf("Not found\n"); break;
 			case(3): multiplication(); break;
-			case(4): printf("Not found\n"); break;
+			case(4): Div(); break;
 			case(5): printf("Not found\n"); break;
 			case(6): modul2(); break;
 			case(7): printf("Not found\n"); break;
-			case(8): printf("Not found\n"); break;
+			case(8): my_cos(); break;
 			case(9): tang(); break;
 			case(10): printf("Not found\n"); break;
 			case(11): exitFlag = 1; break;

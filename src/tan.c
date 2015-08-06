@@ -1,15 +1,9 @@
 #include "tan.h"
-#include <string.h>
-#include <stdlib.h>
 
 void tang(void) {
     double value;
-    char str[100];
-        
-    printf("Input value: ");
-    fgets(str, 100, stdin);
-    str[strlen(str) - 1] = '\0';
-    value = atof(str);
+    printf("Введите число: ");
     
-    printf("tang(%lf) = %lf", value, tan(value));
-}
+    scanf("%lf", &value);
+    printf("tan(%f) = %f\n", value, tan(value));    
+} 

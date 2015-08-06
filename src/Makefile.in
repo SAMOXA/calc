@@ -94,6 +94,7 @@ am_calc_OBJECTS = main.$(OBJEXT) multiplication.$(OBJEXT) \
 	modul2.$(OBJEXT) tan.$(OBJEXT) div.$(OBJEXT)
 calc_OBJECTS = $(am_calc_OBJECTS)
 calc_LDADD = $(LDADD)
+calc_DEPENDENCIES =
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -234,8 +235,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 calc_SOURCES = main.c multiplication.c multiplication.h cos.h modul2.c modul2.h tan.c tan.h div.c div.h
-AM_LDFLAGS = -lm
-AM_CFLAGS = -lm
+LDADD = -lm
 all: all-am
 
 .SUFFIXES:
